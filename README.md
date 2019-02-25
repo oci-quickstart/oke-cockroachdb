@@ -13,6 +13,7 @@ We will use Helm to deploy CockroachDB. Helm is a package manager for Kubernetes
 `helm init --upgrade --service-account tiller`
 
 #### Install the CockroachDB Helm chart
+In this example we are using "my-release" as the release name. If you use a different name, be sure to change the release name in subsequent commands.
 `helm install --name my-release stable/cockroachdb`
 
 #### Confirm that the pods are running
