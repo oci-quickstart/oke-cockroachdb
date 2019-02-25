@@ -6,6 +6,8 @@ This is a walkthrough of setdeploying an insecure [CockroachDB](https://github.c
 ## Prerequisites
 First you're going to need to setup an Oracle Cloud account, your environmental variables, an OKE cluster and your kubectl.  It sounds like a lot, but there's a nice walkthrough [here](https://github.com/cloud-partners/oke-how-to) that should help.
 
+## Deploying CockroachDB on Oracle Kubernetes Engine (OKE)
+
 #### Initialize and update Helm
 
 `helm init --upgrade --service-account tiller`
