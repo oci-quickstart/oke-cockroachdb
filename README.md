@@ -9,15 +9,12 @@ First you're going to need to setup an Oracle Cloud account, your environmental 
 ## Deploying CockroachDB on Oracle Kubernetes Engine (OKE)
 
 #### Initialize and update Helm
-
 `helm init --upgrade --service-account tiller`
 
 #### Install the CockroachDB Helm chart
-
 `helm install --name my-release stable/cockroachdb`
 
 #### Confirm that the pods are running
-
 `kubectl get pods`
 
 ```
