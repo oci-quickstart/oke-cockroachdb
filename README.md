@@ -12,7 +12,6 @@ First you're going to need to setup an Oracle Cloud account, your environmental 
 
 #### Install the CockroachDB Helm chart
 
-You
 `helm install --name my-release stable/cockroachdb`
 
 #### Confirm that the pods are running
@@ -29,12 +28,9 @@ my-release-cockroachdb-2   1/1       Running   0          47s
 #### Access the Admin UI
 `kubectl port-forward my-release-cockroachdb-0 8080`
 
-Go to http://localhost:8080/
-
-You should see the the 
+Then go to http://localhost:8080/ in a browser.
 
 #### Using the built-in SQL client
-
 The following command will launch an interactive pod that runs the SQL client inside it:
 
 `kubectl run cockroachdb -it --image=cockroachdb/cockroach --rm --restart=Never -- sql --insecure --host=my-release-cockroachdb-public`
