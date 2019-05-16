@@ -1,10 +1,10 @@
-# oci-cockroach
-This is a walkthrough of setdeploying an insecure [CockroachDB](https://github.com/cockroachdb/cockroach) up on [Oracle Kubernetes Engine](https://cloud.oracle.com/containers/kubernetes-engine) (OKE).
-
-**NOTE** If you plan to use CockroachDB in production, you should deploy a secure cluster by following the instructions [here](https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-kubernetes.html).
+# oke-quickstart-cockroachdb
+This is a walkthrough of setting [CockroachDB](https://github.com/cockroachdb/cockroach) up on [Oracle Kubernetes Engine](https://cloud.oracle.com/containers/kubernetes-engine) (OKE).  It is developed jointly by Oracle and Cockroach Labs.
 
 ## Prerequisites
-First you're going to need to setup an Oracle Cloud account, your environmental variables, an OKE cluster and your kubectl.  It sounds like a lot, but there's a nice walkthrough [here](https://github.com/cloud-partners/oke-how-to) that should help.
+First you're going to need to setup an Oracle Cloud account, your environmental variables, an OKE cluster and your kubectl.  It sounds like a lot, but there's a nice walkthrough [here](https://github.com/oracle/oke-quickstart-prerequisites) that should help.
+
+**NOTE** If you plan to use CockroachDB in production, you should deploy a secure cluster by following the instructions [here](https://www.cockroachlabs.com/docs/stable/orchestrate-cockroachdb-with-kubernetes.html).
 
 ## Deploying CockroachDB on Oracle Kubernetes Engine (OKE)
 We will use Helm to deploy CockroachDB. Helm is a package manager for Kubernetes. If you don't have Helm installed, follow the instructions [here](https://helm.sh/docs/using_helm/#installing-helm) to install it first.
