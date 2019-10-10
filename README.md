@@ -1,5 +1,5 @@
-# oke-quickstart-cockroachdb
-This is a walkthrough of setting [CockroachDB](https://github.com/cockroachdb/cockroach) up on [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](https://cloud.oracle.com/containers/kubernetes-engine). It is developed jointly by Oracle and Cockroach Labs.  For instructions on how to use this material and details on getting support from the vendor that maintains this material, please contact them directly.
+# oke-cockroachdb
+This is a walkthrough of setting [CockroachDB](https://github.com/cockroachdb/cockroach) up on [Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE)](https://cloud.oracle.com/containers/kubernetes-engine). It is developed jointly by Oracle and Cockroach Labs.
 
 ## Prerequisites
 First you're going to need to setup an Oracle Cloud account, your environmental variables, an OKE cluster and your kubectl.  It sounds like a lot, but there's a nice walkthrough [here](https://github.com/oracle/oke-quickstart-prerequisites) that should help.
